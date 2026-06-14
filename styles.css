@@ -1,0 +1,78 @@
+:root {
+    --color-bg: #EFC98B;
+    --color-header: #D05C37;
+    --color-text: #F5EEDE;
+    --font-title: "MyFont", sans-serif;
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url("fonts/1_Sponge_Bob_Ru_Uk_En_by_Ruslan_Chuchko.otf");
+}
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+header {
+    position: sticky;
+    display: flex;
+    background-color: var(--color-header);
+    height: 50px;
+    
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+    padding-left: 150px;
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    align-self: center;
+    list-style: none;
+}
+
+.menu__link {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.hero__img {
+    width: 100%;
+    display: block;
+    filter: brightness(50%);
+}
+
+.hero__title {
+    font-family: var(--font-title);
+    color: var(--color-text);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__text {
+    color: var(--color-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button--primary {
+    background: var(--color-header);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
