@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Warriors</title>
+    <title>CatWarriors</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img class = "logo" src="img/Логотип.png" alt="Логотип">
+    <header class="header">
+        <img class = "logo" src="img/logo.png" alt="Логотип">
         
         <ul class="menu">
             <li class="menu__item">
@@ -23,30 +23,135 @@
             <li class="menu__item">
                 <a href="#" class = "menu__link">Персонажи</a>
             </li>
+            <li class="menu__item">
+                <a href="#" class = "menu__link">Племена</a>
+            </li>
         </ul>
-
     </header>
 
     <section class="hero">
-
-        <img class = "hero__img" src="img/diting_result_89754cd067d911f1a78c367ad1378305_1.jpeg" alt="jh">
+        <div class="hero__content">
+            <img class = "hero__img" src="img/diting_result_89754cd067d911f1a78c367ad1378305_1.jpeg" alt="jh">
             
-        <h1 class="hero__title">
-            Коты-Воители
-        </h1>
+            <h1 class="hero__title">
+                Мир диких котов и великих племён
+            </h1>
 
-        <p class="hero__text">
-            «Коты-воители» — серия романов, написаных Эрин Хантер, в жанре фэнтези о приключениях диких котов, которые живут в лесу и разделены на племена. Они воюют между собой за территории, сталкиваются со стихийными бедствиями, героически справляются с испытаниями, влюбляются, заводят семьи, следуют Воинскому закону.
-        </p>
+            <p class="hero__text">
+                История о войне, верности, судьбе и выборе, который определяет будущее леса
+            </p>
 
-        <button class="button button--primary">
-            Начать путешествие
-        </button>
-
+            <button class="button button--primary">
+                Узнать больше
+            </button>
+        </div>
     </section>
 
-    <footer>
+    <section class="substance">
+        <div class="substance__header">
+                <h2 class="substance__title">
+                    Основы мира
+                </h2>
+        </div>
+        <div class="substance__grid">
+            <div class="substance-card">
+                <div class="substance-card__img"></div>
+                <div class="substance-card__name">Племена</div>
+                <div class="substance-card__description">Четыре племени делят лес и борются за выживание и территории</div>
+            </div>
 
+            <div class="substance-card">
+                <div class="substance-card__image"></div>
+                <div class="substance-card__name">Воинский закон</div>
+                <div class="substance-card__description">Свод правил, которому следуют все коты-воители. Он определяет честь и порядок в лесу</div>
+            </div>
+
+            <div class="substance-card">
+                <div class="substance-card__image"></div>
+                <div class="substance-card__name">Герои</div>
+                <div class="substance-card__description">Отважные коты, чьи решения меняют судьбу всего леса</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery__header">
+                <h2 class="gallery__title">
+                    Галерея мира
+                </h2>
+                <p>
+                    Кадры из жизни племён и диких лесов
+                </p>
+        </div>
+
+        <div class="gallery__grid">
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat1.png" alt="">
+            </div>
+
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat2.png" alt="">
+            </div>
+
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat3.png" alt="">
+            </div>
+
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat4.png" alt="">
+            </div>
+
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat5.png" alt="">
+            </div>
+
+            <div class="gallery-card">
+                <img class = "gallery-card__img" src="img/cat6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="clan">
+        <div class="clan__header">
+                <h2 class="clan__title">
+                    Племена
+                </h2>
+
+                <p class="clan__text">
+                    Четыре основных великих племени
+                </p>
+        </div>
+        <div class="clan__grid">
+            <div class="clan-card">
+                <div class="clan-card__name">Грозовое племя</div>
+                <div class="clan-card__description">Смелые и благородные воины леса, живущие по строгому кодексу</div>
+            </div>
+
+            <div class="clan-card">
+                <div class="clan-card__name">Речное племя</div>
+                <div class="clan-card__description">Сильные и ловкие коты, отлично умеющие плавать и ловить рыбу</div>
+            </div>
+
+            <div class="clan-card">
+                <div class="clan-card__name">Племя теней</div>
+                <div class="clan-card__description">Скрытные жители болот, известные своей хитростью и выносливостью</div>
+            </div>
+
+            <div class="clan-card">
+                <div class="clan-card__name">Племя ветра</div>
+                <div class="clan-card__description">Свободолюбивые и быстрые коты, живущие на открытых пустошах</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img class = "footer__logo" src="img/logo.png" alt="Логотип">
+        <div class="footer__copy">© 2026 Коты-Воители. Все права принадлежат авторам серии Эрин Хантер.</div>
+            <div class="footer__socials">
+                <a href="#" class = "footer__link">ВКонтакте</a>
+                <a href="#" class = "footer__link">Telegram</a>
+                <a href="#" class = "footer__link">YouTube</a>
+            </div>
     </footer>
 </body>
 </html>
